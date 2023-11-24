@@ -13,93 +13,211 @@
         content="https://cdn.discordapp.com/attachments/904197395015950407/972583371215626331/6965-zero-two-avatar.gif"
         property="og:image" />
     <meta content="#00fffb" data-react-helmet="true" name="theme-color" />
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="../css/celebs.css">
-    <title>Simp...</title>
 
+    <link rel="stylesheet" href="../css/celebs.css">
+    <script defer src="../js/celebs.js"></script>
+    <title>❤</title>
 </head>
 
 <body>
 
-    <div class="container">
-
-        <h1 class="heading">I follow...</h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/Akuma Nihmune.jpg" alt="">
-                <h3>Akuma Nihmune</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/bao.jfif" alt="">
-                <h3>Bao</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/Corpse.jpg" alt="">
-                <h3>Corpse Husband</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/krsna.jpg" alt="">
-                <h3>Krsna</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/ksi.jpg" alt="">
-                <h3>KSI</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/lisa.jpg" alt="">
-                <h3>Lisa</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/rena.jpg" alt="">
-                <h3>Rena</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/Rose.jpg" alt="">
-                <h3>Rose</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/sen.jpg" alt="">
-                <h3>Sentinels</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/sidemen.jpg" alt="">
-                <h3>Sidemen</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/shylily.jpg" alt="">
-                <h3>Shylily</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/tarik.jpg" alt="">
-                <h3>Tarik</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/tenz.jpeg" alt="">
-                <h3>Tenz</h3>
-            </div>
-
-            <div class="box">
-                <img src="../assets/Favorites/celebs/Xqc.jpg" alt="">
-                <h3>Xqc</h3>
-            </div>
-        </div>
+    <div class="line-container">
+        <svg viewBox="0 0 871 975" fill="none" preserveAspectRatio="xMidYMax meet">
+            <path
+                d="M435.643 215.312C508.848 124.522 687.75 -2.58433 817.715 215.312C846.796 257.125 879.689 371.637 778.605 495.178C677.522 618.719 507.846 795.201 435.643 868L85.16 495.178C51.3986 441.37 -4.19062 310.066 43.5433 215.312C197.976 -39.067 451.187 197.283 435.643 215.312Z"
+                stroke="#F36AFF" stroke-width="20" />
+        </svg>
 
 
     </div>
+
+    <script>
+        let path = document.querySelector('path')
+        let pathLength = path.getTotalLength()
+
+        path.style.strokeDasharray = pathLength + ' ' + pathLength + ' ' + pathLength + ' ' + pathLength;
+
+        path.style.strokeDashoffset = pathLength;
+
+        window.addEventListener('scroll', () => {
+            var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+            var drawLength = pathLength * scrollPercentage;
+
+            path.style.strokeDashoffset = pathLength - drawLength;
+        });
+    </script>
+
+
+
+    <section id="section03">
+        <h1>I follow</h1>
+
+        <a href="#art"><span></span></a>
+    </section>
+
+    <section class="hidden" id="art">
+        <h1 class="heading">Artists</h1>
+
+        <div class="Artists">
+            <div class="container">
+
+                <div class="box-container">
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/Corpse.jpg" alt="">
+                        <h3>Corpse Husband</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/drake.jpeg" alt="">
+                        <h3>Drake</h3>
+                    </div>
+
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/juice.jpeg" alt="">
+                        <h3>Juice WRLD</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/jake.jpg" alt="">
+                        <h3>JVKE</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/krsna.jpg" alt="">
+                        <h3>Krsna</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/ksi.jpg" alt="">
+                        <h3>KSI</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/uzi.jpg" alt="">
+                        <h3>Lil Uzi Vert</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/xxx.jpg" alt="">
+                        <h3>XXXTentacion</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hidden">
+        <h1 class="heading">Vtubers</h1>
+
+        <div class="Artists">
+            <div class="container">
+
+                <div class="box-container">
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/Akuma Nihmune.jpg" alt="">
+                        <h3>Akuma Nihmune</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/bao.jfif" alt="">
+                        <h3>Bao The Whale</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/Calliope.jpg" alt="">
+                        <h3>Calliope Mori</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/filian.jpg" alt="">
+                        <h3>Filian</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/gura.jpg" alt="">
+                        <h3>Gawr Gura</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/nux.jpg" alt="">
+                        <h3>Nux Taku</h3>
+                    </div>
+
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/shylily.jpg" alt="">
+                        <h3>Shylily</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/squchan.jpg" alt="">
+                        <h3>SquChan</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hidden">
+        <h1 class="heading">Creators</h1>
+
+        <div class="Artists">
+            <div class="container">
+
+                <div class="box-container">
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/brett.jpg" alt="">
+                        <h3>Brett Cooper</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/hb.jpg" alt="">
+                        <h3>High Boi</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/lauren.jpg" alt="">
+                        <h3>Lauren Burch</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/ksi.jpg" alt="">
+                        <h3>KSI</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/shwetabh.jpg" alt="">
+                        <h3>Shwetabh Gangwar</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/sidemen.jpg" alt="">
+                        <h3>Sidemen</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/tanmay.jpeg" alt="">
+                        <h3>Tanmay Bhat</h3>
+                    </div>
+
+                    <div class="box hidden artist">
+                        <img src="../assets/Favorites/celebs/zaid.jpg" alt="">
+                        <h3>Zaid Ziz</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <div class="foot">
         <div class="flex">
             <a href="../index.html" class="return">&#8592 Return</a>
@@ -107,8 +225,7 @@
         <br>
     </div>
 
+
 </body>
 
 </html>
-
-<body>
