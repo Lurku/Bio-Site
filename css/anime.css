@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'ABeeZee', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;     
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.5)),url(../assets/simpBG.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 20%;
+}
+
+.container{
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+.container .box-container .box{
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.container .box-container .box img{
+    height: 110px;
+    border-radius: 8px;
+}
+
+.container .box-container .box h3{
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p{
+    opacity: 0;
+    color: rgb(233, 233, 233);
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box h3:hover{
+    opacity: 100;
+}
+
+.container .box-container .box p:hover{
+    opacity: 100;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px; 
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+
+.return:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.19);
+}
+
+.foot{
+    height: 75px;
+}
+
+.return{
+    left:50%;
+    padding-top: 2vh;
+    text-align: center;
+    border: 1px solid #fff;
+    align-items: center;
+    padding: 10px 100px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    border-radius: 35px;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

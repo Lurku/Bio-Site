@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+
+.container{
+    height: 100vh;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    text-align: center;
+}
+
+.container span{
+    top: 50%;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}

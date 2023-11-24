@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'ABeeZee', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear; 
+    
+}
+
+body{
+    left: 50%;
+    right: 50%;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+/* ::-webkit-scrollbar{
+    width: 0;
+}
+
+#scrollPath{
+    border-radius: 10px;
+    position: fixed;
+    top:0;
+    right:0;
+    width:10px;
+    height:100%;
+    background-color: rgba(255,255,255,0.1);
+    z-index: 2;
+}
+
+#progressBar{
+    border-radius: 10px;
+    position: fixed;
+    top:0;
+    right:0;
+    width:10px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+    z-index: 3;
+}
+
+@keyframes animate{
+    0%,100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+#progressBar::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter:blur(30px);
+}
+
+#progressBar::after{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter:blur(30px);
+} */
+
+/*PAGE1*/
+.page1{
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0, 0, 0, 0.0)), url("../assets/download.jpg");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50%;
+    text-align: center;
+    color: white;
+    
+}
+
+#Avatar{
+    position: relative;
+    height: 200px;
+    padding: 0 20px;
+    padding-top: 25vh;
+    padding-bottom: 15px;
+    border-radius: 25%;
+    transition: ease-in .5s;
+}
+
+.name{ 
+    font-size: 40px;
+}
+
+.name h3{
+    background: linear-gradient(90deg, #00C9FF 45%, #92FE9D 55%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subName{
+    font-size: 20px;
+    color: rgb(136, 147, 158);
+}
+
+.intr{
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+#intrest{
+    color: #00C9FF;
+}
+
+/*.quotation{
+    font-size: 40px;
+
+
+.belive{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 28px;
+}
+
+.normal{
+    font-size: 32px;
+}
+
+.pink{
+    color: #00C9FF;
+    font-size: 40px;
+}*/
+
+/*PAGE2*/
+.page2{
+    height: 100vh;
+    background-image: url("https://cdn.discordapp.com/attachments/699181227533533196/976162052798283826/aa9bb7ffc6d502e9112ec8c7e9350175.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    overflow: hidden;
+    text-align: center;
+    font-family:'ABeeZee';
+}
+
+.paper-plane{
+    height: 100px;
+    position: absolute;
+    top:60%;
+    left:0%;
+}
+
+.heading{
+    color: white;
+    font-size: 40px;
+    padding-top: 12vh;
+    padding-bottom: 18vh;
+}
+
+.btn{
+    z-index: 2;
+    text-align: center;
+    border: 1px solid #fff;
+    align-items: center;
+    padding: 10px 100px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    border-radius: 35px;
+}
+
+#all{
+    padding: 10px 79px;
+}
+
+#music{
+    padding: 10px 110px;
+}
+
+#coding{
+    padding: 10px 105px;
+}
+
+#celebs{
+    padding: 10px 90px;
+}
+
+#anime{
+    padding: 10px 108px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.links{
+    padding: 15px;
+}
+
+/*PAGE3*/
+.page3{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.0)),url("https://media.discordapp.net/attachments/699181227533533196/976162328745766942/socialBG.jpg?width=1242&height=670");
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'ABeeZee';
+    overflow: hidden;
+}
+
+.heading2{
+    color: white;
+    font-size: 40px;
+    padding-top: 15vh;
+    padding-bottom: 23vh;
+}
+
+#viewsc{
+    color: white;
+}

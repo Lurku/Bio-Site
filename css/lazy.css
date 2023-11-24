@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+body{
+    background-color: #313138;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+}
+
+p{
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    color:#60606c;
+    align-items: center;
+}
+
+.return:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.19);
+}
+
+.foot{
+    height: 75px;
+}
+
+.return{
+    left:50%;
+    padding-top: 2vh;
+    text-align: center;
+    border: 1px solid #fff;
+    align-items: center;
+    padding: 10px 100px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    border-radius: 35px;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

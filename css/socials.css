@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'ABeeZee', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear; 
+    
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+body{
+    left: 50%;
+    right: 50%;
+}
+
+section{
+    height: 50vh;
+
+}
+
+h1{
+    display: flex;
+    font-size: 10vh;
+    color: #fff;
+}
+
+.left{
+    position: absolute;
+    text-align: center;
+    height: inherit;
+    width: 50%;
+}
+
+.right{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    height: inherit;
+    width: 60%;
+    right: 0%;
+}
+
+img{
+    width: 220px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    margin: auto;
+    padding-top: 8vh;
+    
+}
+
+.btn{
+    top: 60%;
+    z-index: 2;
+    text-align: center;
+    border: 1px solid #fff;
+    align-items: center;
+    padding: 10px 100px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    border-radius: 35px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#git{
+    display: block;
+    padding-top:10%;
+}
+
+#Github{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0, 0, 0, 1)), url("../assets/GithubBG.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#Anilist{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),url("../assets/AnilistBG.jpg");
+    background-position-y: 15%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#ani{
+    display: block;
+    padding-top:10%;
+}
+
+#Twitter{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),url("../assets/TwitterBG.jpeg");
+    background-position: center;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#twitter{
+    display: block;
+    padding-top:10%;
+}
+
+#Twitch{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),url("../assets/TwitchBG.jpg");
+    background-position: center;
+    background-position-y: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#twitch{
+    display: block;
+    padding-top:10%;
+}
+
+#Pixiv{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),url("../assets/pixivBG.jpg");
+    background-position: center;
+    background-position-y: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pixiv{
+    display: block;
+    padding-top:10%;
+}
+
+#Pinterest{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),url("../assets/pinterestBG.jpg");
+    background-position: center;
+    background-position-y: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pinterest{
+    display: block;
+    padding-top:10%;
+}
+
+
+#Spotify{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),url("../assets/SpotifyBG.png");
+    background-position-y: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#spotify{
+    display: block;
+    padding-top:10%;
+}
+
+#Reddit{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),url("../assets/redditBG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#reddit{
+    display: block;
+    padding-top:10%;
+}
+
+#Discord{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)),url("../assets/DiscordBG.png");
+    background-position: center;
+    background-position-y: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#discord{
+    display: block;
+    padding-top:10%;
+}
