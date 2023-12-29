@@ -16,15 +16,15 @@ body{
     margin: 0;
     font-family: 'Mulish', sans-serif;
     text-decoration: none;
-    text-transform: capitalize;
     scroll-behavior: smooth;
+    
 }
 
 section{
     display: grid;
     place-items: center;
     align-content: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 h1{
@@ -37,12 +37,40 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+}
+
 p{
     font-size:15px;
     font-family: 'Roboto', sans-serif;
     color:#60606c;
     align-items: center;
+    text-align: center;
 }
+
+img{
+    height: 80vh;
+}
+
+.aa{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.demo{
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    color:#60606c;
+    align-items: center;
+    text-transform: lowercase;
+}
+
 
 .return:hover{
     background-color: #fff;
@@ -61,6 +89,7 @@ p{
     border: 1px solid #fff;
     align-items: center;
     padding: 10px 100px;
+    font-size:small;
     color: #fff;
     text-decoration: none;
     transition: 0.2s ease;
@@ -68,6 +97,7 @@ p{
 }
 
 .flex{
+    padding-top: 4vh;
     display: flex;
     width: 100%;
     justify-content: center;

@@ -211,6 +211,11 @@ body{
     color: #000;
 }
 
+#troll{
+    padding: 10px 60px;
+    opacity:0.2;
+}
+
 .links{
     padding: 15px;
 }

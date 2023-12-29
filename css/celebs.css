@@ -157,12 +157,6 @@ h1{
     transform: scale(1.03);
 }
 
-@media (max-width:768px){
-    .container{
-        padding:20px;
-    }
-}
-
 .return:hover{
     background-color: #fff;
     color: #000;
@@ -311,4 +305,41 @@ h1{
   100% {
     opacity: 0;
   }
+}
+
+
+
+@media (max-width:900px){
+    .container{
+        padding: 20px;
+    }
+
+    svg{
+
+        width: 100svb;
+        padding-bottom: 30svh;
+    }
+
+    section{
+        display:block !important;
+        width: 100svh;
+    }
+
+    .container .box-container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(10px, 1fr));
+        gap: 15px;
+    }
+
+    #section03 a span {
+        position: absolute;
+        bottom: 10vh;
+        left: 50%;
+        width: 46px;
+        height: 46px;
+        margin-left: -23px;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        box-sizing: border-box;
+    }
 }
