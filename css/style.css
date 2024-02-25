@@ -149,7 +149,7 @@ body{
 /*PAGE2*/
 .page2{
     height: 100vh;
-    background-image: linear-gradient(rgba(8, 10, 59, 1) 10%, rgba(0, 0, 0, 0), rgba(0,0,0,0), rgba(0,0,0,1) 10%),url("https://cdn.discordapp.com/attachments/1178597274759221298/1211184707656613908/peakpx_1.jpg?ex=65ed46a9&is=65dad1a9&hm=5ef05fb4765d73ac15f0d9d011d35b362459e0891458edfc328e3444359e4d26&");
+    background-image: linear-gradient(rgba(8, 10, 59, 1), rgba(0, 0, 0, 0), rgba(0,0,0,0), rgba(0,0,0,1)),url("https://cdn.discordapp.com/attachments/1178597274759221298/1211184707656613908/peakpx_1.jpg?ex=65ed46a9&is=65dad1a9&hm=5ef05fb4765d73ac15f0d9d011d35b362459e0891458edfc328e3444359e4d26&");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
