@@ -149,7 +149,7 @@ body{
 /*PAGE2*/
 .page2{
     height: 100vh;
-    background-image: linear-gradient(rgba(8, 10, 59, 1), rgba(0, 0, 0, 0), rgba(0,0,0,0), rgba(0,0,0,1)),url("https://cdn.discordapp.com/attachments/1178597274759221298/1211184707656613908/peakpx_1.jpg?ex=65ed46a9&is=65dad1a9&hm=5ef05fb4765d73ac15f0d9d011d35b362459e0891458edfc328e3444359e4d26&");
+    background-image: linear-gradient(rgba(8, 10, 59, 1), rgba(0, 0, 0, 0), rgba(0,0,0,0), rgba(0,0,0,1)),url("https://i.imgur.com/o7FQq3D.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,7 +223,7 @@ body{
 /*PAGE3*/
 .page3{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.0)),url("https://cdn.discordapp.com/attachments/1178597274759221298/1211185317319671808/wp3746840-future-diary-wallpapers.jpg?ex=65ed473a&is=65dad23a&hm=780b8cd1a2e61b46a2933748752fbb99f074a8abd102bf3dffe8e87ba82fddbb&");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.0)),url("https://i.imgur.com/RTjDAL8.png");
     background-position: 20%;
     background-repeat: no-repeat;
     background-size: cover;
